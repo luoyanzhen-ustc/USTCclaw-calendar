@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# OpenClaw workspace data
+workspace/calendar/events.json
+workspace/calendar/settings.json
+workspace/calendar/reminders.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/

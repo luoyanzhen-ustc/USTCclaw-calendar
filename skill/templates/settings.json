@@ -1,0 +1,25 @@
+{
+  "timezone": "Asia/Shanghai",
+  "defaultView": "day",
+  "quietHours": ["23:00", "08:00"],
+  "notify": {
+    "channels": ["current"],
+    "qq": {
+      "enabled": false,
+      "groupId": null
+    },
+    "wechat": {
+      "enabled": false,
+      "accountId": null
+    }
+  },
+  "reminderDefaults": {
+    "high": [1440, 60],
+    "medium": [30],
+    "low": [10]
+  },
+  "ocr": {
+    "provider": "qwen-chat",
+    "enabled": true
+  }
+}

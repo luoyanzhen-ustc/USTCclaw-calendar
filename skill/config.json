@@ -1,0 +1,58 @@
+{
+  "name": "calendar-assistant",
+  "version": "1.0.0",
+  "description": "OpenClaw 智能日历助手 - 课表识别、日程管理、多渠道提醒",
+  "timezone": "Asia/Shanghai",
+  "defaultView": "day",
+  "quietHours": ["23:00", "08:00"],
+  "ocr": {
+    "provider": "qwen-chat",
+    "enabled": true
+  },
+  "notify": {
+    "channels": ["current"],
+    "qq": {
+      "enabled": false,
+      "groupId": null
+    },
+    "wechat": {
+      "enabled": false,
+      "accountId": null
+    }
+  },
+  "reminderDefaults": {
+    "high": [1440, 60],
+    "medium": [30],
+    "low": [10]
+  },
+  "intentPatterns": {
+    "query": [
+      "今天 (.*) 课",
+      "明天 (.*) 安排",
+      "周 (.*) 有",
+      "这周 | 本周",
+      "下周 (.*)",
+      " (.*) 有课吗"
+    ],
+    "add": [
+      "我要去 (.*)",
+      "我要 (.*)",
+      "计划 (.*)",
+      " (.*) 点 (.*)",
+      "提醒我 (.*)"
+    ],
+    "confirm": [
+      "好的",
+      "确认",
+      "可以",
+      "行",
+      "没问题"
+    ],
+    "cancel": [
+      "不要",
+      "不用",
+      "算了",
+      "取消"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "events": [],
+  "settings": {
+    "timezone": "Asia/Shanghai",
+    "defaultView": "day",
+    "quietHours": ["23:00", "08:00"],
+    "notifyChannels": ["current"],
+    "reminderDefaults": {
+      "high": [1440, 60],
+      "medium": [30],
+      "low": [10]
+    }
+  },
+  "metadata": {
+    "createdAt": "2026-04-07T11:30:00.000Z",
+    "updatedAt": "2026-04-07T11:30:00.000Z",
+    "courseCount": 0,
+    "planCount": 0
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "events": [
+    {
+      "id": "evt-sample-001",
+      "type": "course",
+      "title": "信息论 A",
+      "priority": "medium",
+      "schedule": {
+        "kind": "weekly",
+        "weekday": 1,
+        "startTime": "07:50",
+        "endTime": "09:25",
+        "weeks": "1-15",
+        "weekStart": 1,
+        "weekEnd": 15
+      },
+      "location": "GT-B210",
+      "teacher": "龚晨",
+      "notes": "课程代码：006125.02",
+      "reminderOffsets": [30],
+      "active": true,
+      "source": "manual",
+      "createdAt": "2026-04-07T11:30:00.000Z"
+    },
+    {
+      "id": "evt-sample-002",
+      "type": "course",
+      "title": "数学分析 (B2)",
+      "priority": "medium",
+      "schedule": {
+        "kind": "weekly",
+        "weekday": 1,
+        "startTime": "09:45",
+        "endTime": "11:20",
+        "weeks": "1-18",
+        "weekStart": 1,
+        "weekEnd": 18
+      },
+      "location": "3C202",
+      "teacher": "张娜",
+      "notes": "课程代码：MATH1007.15",
+      "reminderOffsets": [30],
+      "active": true,
+      "source": "manual",
+      "createdAt": "2026-04-07T11:30:00.000Z"
+    },
+    {
+      "id": "evt-sample-003",
+      "type": "plan",
+      "title": "图书馆学习",
+      "priority": "low",
+      "schedule": {
+        "kind": "once",
+        "date": "2026-04-08",
+        "startTime": "19:00",
+        "endTime": "21:00"
+      },
+      "location": "图书馆",
+      "notes": "带充电宝",
+      "reminderOffsets": [30],
+      "active": true,
+      "source": "manual",
+      "createdAt": "2026-04-07T11:30:00.000Z"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-07T11:30:00.000Z",
+    "updatedAt": "2026-04-07T11:30:00.000Z",
+    "courseCount": 2,
+    "planCount": 1
+  }
+}

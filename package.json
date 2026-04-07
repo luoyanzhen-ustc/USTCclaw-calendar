@@ -1,0 +1,29 @@
+{
+  "name": "ustcclaw-calendar",
+  "version": "1.0.0",
+  "description": "📅 OpenClaw 智能日历助手 - 课表识别、日程管理、多渠道提醒",
+  "main": "skill/scripts/index.js",
+  "scripts": {
+    "test": "node scripts/test-ocr.js examples/sample-schedule.png",
+    "deploy": "bash scripts/deploy.sh",
+    "docs": "echo 'View docs in docs/ folder'"
+  },
+  "keywords": [
+    "openclaw",
+    "calendar",
+    "schedule",
+    "ustc",
+    "assistant",
+    "ocr"
+  ],
+  "author": "luoyanzhen-ustc",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luoyanzhen-ustc/USTCclaw-calendar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luoyanzhen-ustc/USTCclaw-calendar/issues"
+  },
+  "homepage": "https://github.com/luoyanzhen-ustc/USTCclaw-calendar#readme"
+}
